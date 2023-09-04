@@ -1,0 +1,12 @@
+#first_container :nth-child(4n+1){
+    background-color: red;
+}
+#first_container :nth-child(4n+2){
+    background-color: green;
+}
+#first_container :nth-child(4n+3){
+    background-color: blue;
+}
+#first_container :nth-child(4n+4){
+    background-color: gray;
+}
