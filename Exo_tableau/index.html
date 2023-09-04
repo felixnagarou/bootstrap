@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableaux</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header></header>
+    <main class="container">
+        <h1 class="text-secondary text-center">Demo - Tableaux</h1>
+        <hr>
+        <table class ="table table-light table-striped" id = "contacts">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Avatar</th>
+                    <th>full name</th>
+                    <th>mail</th>
+                    <th>tél</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody id="contacts_body">
+                <tr>
+                    <th>1</th>
+                    <th><img src="/assets/img/unknown_author.webp" class="rounded-circle" alt=""></th>
+                    <th>Maurice Ravel</th>
+                    <th>mauriceravel@outretombe.fr</th>
+                    <th>0777777777</th>
+                    <th>
+                        <button class="btn btn-outline-info">
+                            details
+                        </button>
+                        <button class="btn btn-outline-warning">
+                            edit
+                        </button>
+                        <button class="btn btn-outline-danger">
+                            delete
+                        </button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th><img src="/assets/img/unknown_author.webp" class="rounded-circle" alt=""></th>
+                    <th>Camille Saint-Saens</th>
+                    <th>c-st-saens@cemetery.fr</th>
+                    <th>0777777777</th>
+                    <th>
+                        <button class="btn btn-info">
+                            details
+                        </button>
+                        <button class="btn btn-warning">
+                            edit
+                        </button>
+                        <button class="btn btn-danger">
+                            delete
+                        </button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th><img src="/assets/img/unknown_author.webp"  class="rounded-circle" alt=""></th>
+                    <th>Gustav Holtz</th>
+                    <th>g_holtz@neptune.fr</th>
+                    <th>0777777777</th>
+                    <th>
+                        <button class="btn btn-info">
+                            details
+                        </button>
+                        <button class="btn btn-warning">
+                            edit
+                        </button>
+                        <button class="btn btn-danger">
+                            delete
+                        </button>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
