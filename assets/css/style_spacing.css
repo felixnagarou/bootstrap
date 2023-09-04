@@ -1,0 +1,11 @@
+#form{
+    color: aliceblue;
+    padding-inline: 1em;
+    padding-block: 1em;
+
+}
+
+.col{
+    padding-top: 1rem;
+    margin-block: 1em;
+}
